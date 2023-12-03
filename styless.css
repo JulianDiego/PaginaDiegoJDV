@@ -1,0 +1,61 @@
+/* styles.css */
+
+body {
+    
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d1cfcf;
+}
+img {
+    width: 150px;
+    height: 150px;
+}
+header img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%; /* Ajusta según tus preferencias */
+}
+
+header {
+    background-color: #8eb9b9;
+    color: rgba(0, 0, 0, 0.473);
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.content-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project-box,
+.skill-box {
+    max-width: 100%; /* La imagen no superará el ancho del contenedor */
+    width: 150px; /* Ancho deseado */
+    background-color: #c3cfce;
+    border: 1px solid #b4afaf;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ 
+}
+
+footer {
+    background-color: #2d8a7e;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+    
+    
+}
